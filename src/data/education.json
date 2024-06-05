@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "duration": "November 2022 - Present",
+    "degree": "Bachelor of Technology",
+    "institute": "Indian Institute of Information Technology, Ranchi"
+  },
+  {
+    "id": 2,
+    "duration": "April 2021 - April 2022",
+    "degree": "Intermediate",
+    "institute": "St. Karen's High School"
+  },
+  {
+    "id": 3,
+    "duration": "April 2019 - April 2020",
+    "degree": "Matriculation",
+    "institute": "St. Karen's High School"
+  }
+]
