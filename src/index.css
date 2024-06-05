@@ -12,5 +12,41 @@
 }
 
 ::selection {
-  background-color: #5C5470;
+  background-color: #5c5470;
+}
+
+.nav-elements {
+  position: absolute;
+  right: 0;
+  top: 80px;
+  width: 0px;
+  height: calc(100vh - 80px);
+  transition: all 0.3s ease-in;
+  overflow: hidden;
+  background-color: #352f44;
+}
+
+.nav-elements.active {
+  width: 100%;
+}
+
+.nav-elements ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.nav-elements ul li {
+  margin-right: unset;
+  margin-top: 22px;
+}
+
+.nav-bar.show {
+  display: none;
+  transition: all 0.3s ease-in;
+}
+
+.nav-bar.hide {
+  display: none;
+  transition: all 0.3s ease-in;
 }

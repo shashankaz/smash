@@ -11,7 +11,10 @@ const Education = () => {
       </div>
       <div>
         {education.map((edu) => (
-          <div className="bg-[#B9B4C7] text-[#352F44] md:p-8 p-6 rounded-lg mb-4">
+          <div
+            key={edu.id}
+            className="bg-[#B9B4C7] text-[#352F44] md:p-8 p-6 rounded-lg mb-4"
+          >
             <div className="flex items-center gap-1">
               <div className="md:text-xs text-[10px]">
                 <BsCalendarDate />

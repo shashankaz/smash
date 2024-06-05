@@ -4,13 +4,13 @@ const Contact = () => {
   const phone = Math.floor(Math.random() * 10000000000);
 
   return (
-    <div className="md:py-[100px] py-[60px] flex flex-col justify-center items-center">
+    <div id="contact" className="md:py-[100px] py-[60px] flex flex-col justify-center items-center">
       <div className="flex flex-col justify-center items-center md:pb-[100px] pb-[60px]">
         <p className="md:text-lg">Get In Touch</p>
         <h1 className="md:text-5xl text-4xl">Contact Me</h1>
       </div>
       <div className="flex flex-wrap justify-between w-full">
-        <div className="flex flex-col w-[600px] mb-[30px]">
+        <div className="flex flex-col max-w-[600px] w-full mb-[30px]">
           <h1 className="md:text-3xl text-2xl font-light md:pb-8 pb-6">
             Get In Touch
           </h1>
@@ -37,7 +37,7 @@ const Contact = () => {
             </button>
           </form>
         </div>
-        <div className="flex flex-col w-[500px]">
+        <div className="flex flex-col max-w-[500px] w-full">
           <h1 className="md:text-3xl text-2xl font-light md:pb-8 pb-6">
             My Contact Details
           </h1>

@@ -14,7 +14,7 @@ import { FaGitAlt } from "react-icons/fa";
 
 const Tech = () => {
   return (
-    <div className="md:py-[100px] py-[60px] flex flex-col justify-center items-center">
+    <div id="tech" className="md:py-[100px] py-[60px] flex flex-col justify-center items-center">
       <div className="flex flex-col justify-center items-center md:pb-[100px] pb-[60px]">
         <p className="md:text-lg">Explore My</p>
         <h1 className="md:text-5xl text-4xl">Tech Stacks</h1>

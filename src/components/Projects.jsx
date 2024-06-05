@@ -3,7 +3,7 @@ import projects from "../data/projects";
 
 const Projects = () => {
   return (
-    <div className="md:py-[100px] py-[60px] flex flex-col justify-center items-center">
+    <div id="projects" className="md:py-[100px] py-[60px] flex flex-col justify-center items-center">
       <div className="flex flex-col justify-center items-center md:pb-[100px] pb-[60px]">
         <p className="md:text-lg">Browse My Recent</p>
         <h1 className="md:text-5xl text-4xl">Projects</h1>

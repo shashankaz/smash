@@ -2,16 +2,16 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="md:py-[100px] py-[60px] flex flex-col justify-center items-center">
+    <div id="about" className="md:py-[100px] py-[60px] flex flex-col justify-center items-center">
       <div className="flex flex-col justify-center items-center md:pb-[100px] pb-[60px]">
         <p className="md:text-lg">Get To Know More</p>
         <h1 className="md:text-5xl text-4xl">About Me</h1>
       </div>
       <div className="flex flex-wrap justify-center w-full">
-        <div className="w-[500px] h-[300px] bg-[#B9B4C7] md:mb-0 mb-[50px] md:mx-[40px]">
+        <div className="w-[500px] h-[300px] bg-[#B9B4C7] md:mx-[40px] my-4">
           <img src="" alt="Cover" />
         </div>
-        <div className="w-[500px] h-[300px] flex flex-col justify-center md:mx-[40px]">
+        <div className="w-[500px] min-h-[300px] flex flex-col justify-center md:mx-[40px] my-4">
           <div>
             My name is Shashank, and I'm a dedicated programmer who thrives on
             learning and exploring new technologies. I have a quick learning

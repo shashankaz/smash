@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="bg-[#352F44] text-[#FAF0E6] md:px-[100px] px-[30px]">
+    <div className="bg-[#352F44] text-[#FAF0E6] md:px-[100px] px-[25px]">
       <Hero />
       <About />
       <Education />
