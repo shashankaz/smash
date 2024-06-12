@@ -1,37 +1,130 @@
 [
   {
-    "id": 1,
-    "project_name": "Project Eta",
-    "year": 2024
+    "id": 16,
+    "project_name": "Feedback Feature App",
+    "tech_stack": "ReactJs, JavaScript, CSS, Redux Toolkit",
+    "year": 2024,
+    "live_link": "https://feedback-feature-app.vercel.app/",
+    "github_link": "https://github.com/shashankaz/feedback-feature-app"
   },
   {
-    "id": 2,
-    "project_name": "Project Zeta",
-    "year": 2025
+    "id": 15,
+    "project_name": "Reactor",
+    "tech_stack": "ReactJs, CSS",
+    "year": 2024,
+    "live_link": "https://reactor-beta.vercel.app/",
+    "github_link": "https://github.com/shashankaz/reactor"
   },
   {
-    "id": 3,
-    "project_name": "Project Epsilon",
-    "year": 2024
+    "id": 14,
+    "project_name": "Portfolio - New edition",
+    "tech_stack": "ReactJs, JavaScript, TailwindCSS, React Icons, React Router Dom, EmailJs",
+    "year": 2024,
+    "live_link": "https://smash-ecru.vercel.app/",
+    "github_link": "https://github.com/shashankaz/smash"
   },
   {
-    "id": 4,
-    "project_name": "Project Delta",
-    "year": 2023
+    "id": 13,
+    "project_name": "AuthXpress - Backend",
+    "tech_stack": "NodeJs, ExpressJs, MongoDB, Mongoose, EJS, CSS, Cookie Parse, JWT, Bcrypt, Dotenv",
+    "year": 2024,
+    "live_link": "https://backend-signup-login.onrender.com/",
+    "github_link": "https://github.com/shashankaz/backend-signup-login"
   },
   {
-    "id": 5,
-    "project_name": "Project Gamma",
-    "year": 2022
+    "id": 12,
+    "project_name": "DevNook",
+    "tech_stack": "ReactJs, JavaScript, TailwindCSS, React Icons, React Router Dom, SwiperJs",
+    "year": 2024,
+    "live_link": "https://dev-nook-woad.vercel.app/",
+    "github_link": "https://github.com/shashankaz/DevNook"
   },
   {
-    "id": 6,
-    "project_name": "Project Beta",
-    "year": 2021
+    "id": 11,
+    "project_name": "Portfolio - 2024",
+    "tech_stack": "ReactJs, JavaScript, TailwindCSS, React Icons, GSAP",
+    "year": 2024,
+    "live_link": "https://portfolio-2024-botsarmy.vercel.app/",
+    "github_link": "https://github.com/shashankaz/portfolio-2024"
+  },
+  {
+    "id": 10,
+    "project_name": "EpicIndia",
+    "tech_stack": "NextJs, TypeScript, TailwindCSS, React Icons, SwiperJs, React Toastify, React Awesome Reveal, GSAP, EmailJs",
+    "year": 2024,
+    "live_link": "https://epic-india.vercel.app/",
+    "github_link": "https://github.com/shashankaz/EpicIndia"
+  },
+  {
+    "id": 9,
+    "project_name": "EduNex",
+    "tech_stack": "ReactJs, JavaScript, CSS, React Icons, React Router Dom, EmailJs",
+    "year": 2024,
+    "live_link": "https://edu-nex.vercel.app/",
+    "github_link": "https://github.com/shashankaz/EduNex"
+  },
+  {
+    "id": 8,
+    "project_name": "Dev Academy",
+    "tech_stack": "NextJs, TypeScript, TailwindCSS, Aceternity UI, Framer Motion",
+    "year": 2024,
+    "live_link": "https://dev-academy-five.vercel.app/",
+    "github_link": "https://github.com/shashankaz/dev-academy"
   },
   {
     "id": 7,
-    "project_name": "Project Alpha",
-    "year": 2020
+    "project_name": "Portfolio - Parallel edition",
+    "tech_stack": "HTML, CSS, JavaScript",
+    "year": 2024,
+    "live_link": "https://theplatform.vercel.app/",
+    "github_link": "https://github.com/shashankaz/portfolio-parallax-effect"
+  },
+  {
+    "id": 6,
+    "project_name": "The Cleric",
+    "tech_stack": "ReactJs, JavaScript, SASS, MUI, React Router Dom",
+    "year": 2024,
+    "live_link": "https://the-cleric.vercel.app/",
+    "github_link": "https://github.com/shashankaz/the-cleric"
+  },
+  {
+    "id": 5,
+    "project_name": "Champion Checklist",
+    "tech_stack": "NextJs, JavaScript, TailwindCSS, GH Pages",
+    "year": 2024,
+    "live_link": "https://champion-checklist.vercel.app/",
+    "github_link": "https://github.com/shashankaz/champion-checklist"
+  },
+  {
+    "id": 4,
+    "project_name": "Quote Generator",
+    "tech_stack": "HTML, CSS, JavaScript, Random Quotes API",
+    "year": 2024,
+    "live_link": "https://quote-generator-botsarmy.vercel.app/",
+    "github_link": "https://github.com/shashankaz/quote-generator"
+  },
+  {
+    "id": 3,
+    "project_name": "Age Calculator",
+    "tech_stack": "HTML, CSS, JavaScript",
+    "year": 2024,
+    "live_link": "https://age-calculator-nine-rho.vercel.app/",
+    "github_link": "https://github.com/shashankaz/age-calculator"
+  },
+  {
+    "id": 2,
+    "project_name": "Password Generator",
+    "tech_stack": "HTML, CSS, JavaScript",
+    "year": 2024,
+    "live_link": "https://password-generator-psi-bice.vercel.app/",
+    "github_link": "https://github.com/shashankaz/password-generator"
+  },
+  {
+    "id": 1,
+    "project_name": "JavaScript Cheat Sheet",
+    "tech_stack": "HTML, CSS, JavaScript, PrismJs",
+    "year": 2024,
+    "live_link": "https://javascript-cheatsheet.vercel.app/",
+    "github_link": "https://github.com/shashankaz/javascript-cheatsheet"
   }
 ]

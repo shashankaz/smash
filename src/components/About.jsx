@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import coverVideo from "../assets/coverVideo.mp4";
 
 const About = () => {
   return (
@@ -12,7 +14,7 @@ const About = () => {
       </div>
       <div className="flex flex-wrap justify-center w-full">
         <div className="w-[500px] h-[300px] bg-[#B9B4C7] md:mx-[40px] my-4">
-          <img src="" alt="Cover" />
+          <video className="w-full h-full object-cover" src={coverVideo} autoPlay muted loop></video>
         </div>
         <div className="w-[500px] min-h-[300px] flex flex-col justify-center md:mx-[40px] my-4">
           <div>
@@ -26,16 +28,16 @@ const About = () => {
             world.
           </div>
           <div className="flex gap-4 mt-6">
-            <a href="https://www.google.com/" target="_blank" rel="noreferrer">
+            <Link to="https://www.google.com/" target="_blank">
               <button className="bg-[#B9B4C7] hover:bg-[#5C5470] hover:text-[#FAF0E6] text-[#5C5470] transition-all py-3 px-6 rounded-3xl">
                 Get Resume
               </button>
-            </a>
-            <a href="#contact">
+            </Link>
+            <Link to="#contact">
               <button className="bg-[#B9B4C7] hover:bg-[#5C5470] hover:text-[#FAF0E6] text-[#5C5470] transition-all py-3 px-6 rounded-3xl">
                 Contact Info
               </button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

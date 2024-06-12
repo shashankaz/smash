@@ -1,0 +1,34 @@
+[
+  {
+    "id": 4,
+    "project_name": "Feedback Feature App",
+    "tech_stack": "ReactJs, JavaScript, CSS, Redux Toolkit",
+    "year": 2024,
+    "live_link": "https://feedback-feature-app.vercel.app/",
+    "github_link": "https://github.com/shashankaz/feedback-feature-app"
+  },
+  {
+    "id": 3,
+    "project_name": "EpicIndia",
+    "tech_stack": "NextJs, TypeScript, TailwindCSS, React Icons, SwiperJs, React Toastify, React Awesome Reveal, GSAP, EmailJs",
+    "year": 2024,
+    "live_link": "https://epic-india.vercel.app/",
+    "github_link": "https://github.com/shashankaz/EpicIndia"
+  },
+  {
+    "id": 2,
+    "project_name": "EduNex",
+    "tech_stack": "ReactJs, JavaScript, CSS, React Icons, React Router Dom, EmailJs",
+    "year": 2024,
+    "live_link": "https://edu-nex.vercel.app/",
+    "github_link": "https://github.com/shashankaz/EduNex"
+  },
+  {
+    "id": 1,
+    "project_name": "Dev Academy",
+    "tech_stack": "NextJs, TypeScript, TailwindCSS, Aceternity UI, Framer Motion",
+    "year": 2024,
+    "live_link": "https://dev-academy-five.vercel.app/",
+    "github_link": "https://github.com/shashankaz/dev-academy"
+  }
+]

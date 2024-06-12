@@ -2,7 +2,8 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-  const phone = Math.floor(Math.random() * 10000000000);
+  const displayPhone = "+91 9876543210";
+  const displayEmail = "admin@domain.com";
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -92,11 +93,11 @@ const Contact = () => {
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-2">
               <h3 className="uppercase">Email</h3>
-              <h3>site@admin.com</h3>
+              <h3>{displayEmail}</h3>
             </div>
             <div className="flex flex-col gap-2">
               <h3 className="uppercase">Phone</h3>
-              <h3>+91 {phone}</h3>
+              <h3>{displayPhone}</h3>
             </div>
           </div>
         </div>
