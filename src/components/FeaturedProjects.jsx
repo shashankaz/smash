@@ -14,7 +14,7 @@ const FeaturedProjects = () => {
       </div>
       <div className="w-full border-b-2 border-[#FAF0E6]">
         {featuredProjects.map((project) => (
-          <Link to={project.github_link} key={project.id} target="_blank">
+          <Link to={project.live_link} key={project.id} target="_blank">
             <div className="flex w-full border-t-2 border-[#FAF0E6] py-4 px-1 md:text-2xl text-xl justify-between hover:bg-[#FAF0E6] hover:text-[#45474B] transition-all hover:cursor-pointer">
               <div>{project.project_name}</div>
               <div>{project.year}</div>
