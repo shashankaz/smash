@@ -1,5 +1,13 @@
 [
   {
+    "id": 5,
+    "project_name": "YouTube Playlist Length",
+    "tech_stack": "ReactJs, JavaScript, CSS, Axios, ExpressJs, Cors, YouTube API",
+    "year": 2024,
+    "live_link": "https://github.com/shashankaz/youtube-playlist-length",
+    "github_link": "https://github.com/shashankaz/youtube-playlist-length"
+  },
+  {
     "id": 4,
     "project_name": "Feedback Feature App",
     "tech_stack": "ReactJs, JavaScript, CSS, Redux Toolkit",

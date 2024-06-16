@@ -16,6 +16,14 @@
     "github_link": "https://github.com/shashankaz/feedback-feature-app"
   },
   {
+    "id": 15,
+    "project_name": "Reactor",
+    "tech_stack": "ReactJs, CSS",
+    "year": 2024,
+    "live_link": "https://reactor-beta.vercel.app/",
+    "github_link": "https://github.com/shashankaz/reactor"
+  },
+  {
     "id": 14,
     "project_name": "Portfolio - New edition",
     "tech_stack": "ReactJs, JavaScript, TailwindCSS, React Icons, React Router Dom, EmailJs",
@@ -30,6 +38,14 @@
     "year": 2024,
     "live_link": "https://backend-signup-login.onrender.com/",
     "github_link": "https://github.com/shashankaz/backend-signup-login"
+  },
+  {
+    "id": 12,
+    "project_name": "DevNook",
+    "tech_stack": "ReactJs, JavaScript, TailwindCSS, React Icons, React Router Dom, SwiperJs",
+    "year": 2024,
+    "live_link": "https://dev-nook-woad.vercel.app/",
+    "github_link": "https://github.com/shashankaz/DevNook"
   },
   {
     "id": 11,
@@ -70,6 +86,14 @@
     "year": 2024,
     "live_link": "https://theplatform.vercel.app/",
     "github_link": "https://github.com/shashankaz/portfolio-parallax-effect"
+  },
+  {
+    "id": 6,
+    "project_name": "The Cleric",
+    "tech_stack": "ReactJs, JavaScript, SASS, MUI, React Router Dom",
+    "year": 2024,
+    "live_link": "https://the-cleric.vercel.app/",
+    "github_link": "https://github.com/shashankaz/the-cleric"
   },
   {
     "id": 5,
