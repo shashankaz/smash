@@ -22,7 +22,7 @@ const techStacks = [
   { icon: <SiTailwindcss />, name: "TailwindCSS" },
   { icon: <FaSass />, name: "Sass" },
   { icon: <FaReact />, name: "ReactJS" },
-  { icon: <SiReactrouter />, name: "React Router" },
+  { icon: <SiReactrouter />, name: "ReactRouter" },
   { icon: <SiRedux />, name: "Redux" },
   { icon: <TbBrandNextjs />, name: "NextJS" },
   { icon: <FaNodeJs />, name: "NodeJS" },
@@ -30,7 +30,7 @@ const techStacks = [
   { icon: <SiMongodb />, name: "MongoDB" },
   { icon: <SiMysql />, name: "MySQL" },
   { icon: <SiGit />, name: "Git" },
-  { icon: <TbBrandFramerMotion />, name: "Framer Motion" },
+  { icon: <TbBrandFramerMotion />, name: "FramerMotion" },
   { icon: <SiMui />, name: "MUI" },
 ];
 

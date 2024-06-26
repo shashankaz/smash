@@ -10,9 +10,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="relative h-[80px] flex justify-end items-center bg-gray-800 text-white">
+    <nav className="relative h-[80px] flex justify-end items-center bg-[#352F43] text-white">
       <div
-        className={`fixed top-0 left-0 w-full h-full bg-gray-900 bg-opacity-90 z-10 transform ${
+        className={`fixed top-0 left-0 w-full h-full bg-[#352F44] bg-opacity-90 z-10 transform ${
           showNavbar ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-300 md:relative md:transform-none md:translate-x-0`}
       >
@@ -21,7 +21,7 @@ const Navbar = () => {
             <li key={section} onClick={handleShowNavbar}>
               <a
                 href={section === "Home" ? "/" : `#${section.toLowerCase()}`}
-                className="text-2xl md:text-base hover:text-gray-400"
+                className="text-2xl md:text-base hover:text-[#5C5470]"
               >
                 {section}
               </a>
