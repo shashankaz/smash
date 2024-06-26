@@ -17,24 +17,27 @@ const Contact = () => {
     if (!form.current) return;
 
     emailjs
-      .sendForm("service_3yszh3p", "template_z0okukb", form.current, {
-        publicKey: "eQ4PlTR9ewmPn4GAK",
-      })
+      .sendForm(
+        "service_3yszh3p",
+        "template_z0okukb",
+        form.current,
+        "eQ4PlTR9ewmPn4GAK"
+      )
       .then(
         () => {
           console.log("SUCCESS!");
+          setName("");
+          setEmail("");
+          setMessage("");
         },
         (error) => {
           console.log("FAILED...", error.text);
         }
       );
-    setName("");
-    setEmail("");
-    setMessage("");
   };
 
   return (
-    <div
+    <section
       id="contact"
       className="md:py-[100px] py-[60px] flex flex-col justify-center items-center"
     >
@@ -43,7 +46,7 @@ const Contact = () => {
         <h1 className="md:text-5xl text-4xl">Contact Me</h1>
       </div>
       <div className="flex flex-wrap justify-between w-full">
-        <div className="flex flex-col max-w-[600px] w-full mb-[30px]">
+        <article className="flex flex-col max-w-[600px] w-full mb-[30px]">
           <h1 className="md:text-3xl text-2xl font-light md:pb-8 pb-6">
             Get In Touch
           </h1>
@@ -68,7 +71,6 @@ const Contact = () => {
             />
             <textarea
               className="md:p-3 p-2 rounded-md outline-none text-black resize-none"
-              id=""
               cols="30"
               rows="10"
               placeholder="Write a Message"
@@ -79,14 +81,13 @@ const Contact = () => {
             ></textarea>
             <button
               type="submit"
-              value="Send"
               className="uppercase tracking-wider md:mt-6 mt-4 md:p-3 p-2 w-[180px] rounded-3xl font-light bg-[#B9B4C7] hover:bg-[#5C5470] text-[#352F44] hover:text-[#FAF0E6] transition-all"
             >
               Send Message
             </button>
           </form>
-        </div>
-        <div className="flex flex-col max-w-[500px] w-full">
+        </article>
+        <article className="flex flex-col max-w-[500px] w-full">
           <h1 className="md:text-3xl text-2xl font-light md:pb-8 pb-6">
             My Contact Details
           </h1>
@@ -100,9 +101,9 @@ const Contact = () => {
               <h3>{displayPhone}</h3>
             </div>
           </div>
-        </div>
+        </article>
       </div>
-    </div>
+    </section>
   );
 };
 
