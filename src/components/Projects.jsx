@@ -1,7 +1,7 @@
 import projects from "../data/projects.json";
 import { Link } from "react-router-dom";
 import { FaAngleLeft } from "react-icons/fa";
-import bg from "../assets/bg-pattern-8.svg";
+import bg from "../assets/bg-pattern-2.svg";
 
 const Projects = () => {
   return (

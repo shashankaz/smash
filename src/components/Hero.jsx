@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Navbar from "./Navbar";
-import bg from "../assets/bg-pattern-7.svg";
+import bg from "../assets/bg-pattern-1.svg";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
