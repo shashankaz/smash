@@ -1,10 +1,42 @@
 [
   {
-    "id": 16,
+    "id": 21,
+    "project_name": "YouTube Playlist Length",
+    "tech_stack": "NodeJs, ExpressJs, MongoDB, Mongoose, Cookie Parse, JWT, Bcrypt, Express Rate Limit, QR Image, Shortid, Dotenv, Cors",
+    "year": 2024,
+    "live_link": "",
+    "github_link": "https://github.com/shashankaz/url_shortener_api"
+  },
+  {
+    "id": 20,
+    "project_name": "Blog API",
+    "tech_stack": "NodeJs, ExpressJs, MongoDB, Mongoose, Cookie Parse, JWT, Bcrypt, Dotenv, Cors",
+    "year": 2024,
+    "live_link": "https://blog-backend-api-myya.onrender.com/",
+    "github_link": "https://github.com/shashankaz/blog_api"
+  },
+  {
+    "id": 19,
+    "project_name": "Todo API",
+    "tech_stack": "NodeJs, ExpressJs, MongoDB, Mongoose, Cookie Parse, JWT, Bcrypt, Dotenv, Cors",
+    "year": 2024,
+    "live_link": "https://todo-backend-api-hj64.onrender.com/",
+    "github_link": "https://github.com/shashankaz/todo_api"
+  },
+  {
+    "id": 18,
+    "project_name": "UrbanCraft",
+    "tech_stack": "ReactJs, JavaScript, CSS, Axios, ExpressJs, Cors, YouTube API",
+    "year": 2024,
+    "live_link": "https://urban-craft.vercel.app/",
+    "github_link": "https://github.com/shashankaz/UrbanCraft"
+  },
+  {
+    "id": 17,
     "project_name": "YouTube Playlist Length",
     "tech_stack": "ReactJs, JavaScript, CSS, Axios, ExpressJs, Cors, YouTube API",
     "year": 2024,
-    "live_link": "https://github.com/shashankaz/youtube-playlist-length",
+    "live_link": "https://youtube-playlist-length-calculator.vercel.app/",
     "github_link": "https://github.com/shashankaz/youtube-playlist-length"
   },
   {

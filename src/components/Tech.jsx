@@ -1,4 +1,3 @@
-import React from "react";
 import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaSass } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import {
@@ -36,26 +35,24 @@ const techStacks = [
 
 const Tech = () => {
   return (
-    <div
-      id="tech"
-      className="md:py-[100px] py-[60px] flex flex-col justify-center items-center"
-    >
-      <div className="flex flex-col justify-center items-center md:pb-[100px] pb-[60px]">
-        <p className="md:text-lg">Explore My</p>
-        <h1 className="md:text-5xl text-4xl">Tech Stacks</h1>
-      </div>
-      <div className="flex md:gap-[23px] gap-[15px] flex-wrap items-center justify-center mx-5">
-        {techStacks.map((tech, index) => (
-          <div
-            key={index}
-            className="flex flex-col items-center justify-center hover:scale-110 cursor-pointer transition-all border-2 p-4 rounded-[20px] md:w-[150px] w-[130px]"
-            aria-label={tech.name}
-            title={tech.name}
-          >
-            <div className="md:text-5xl text-4xl">{tech.icon}</div>
-            <h1 className="md:text-xl text-lg font-bold">{tech.name}</h1>
-          </div>
-        ))}
+    <div className="flex justify-center items-center min-h-screen sticky top-0 z-10 bg-gray-100">
+      <div className="py-20 md:py-10 px-4 sm:px-8 md:px-16 max-w-7xl mx-auto flex flex-col gap-20">
+        <div className="flex flex-col justify-center items-center">
+          <p className="md:text-lg">Explore My</p>
+          <h1 className="md:text-5xl text-4xl">Tech Stacks</h1>
+        </div>
+        <div className="flex gap-4 flex-wrap items-center justify-center">
+          {techStacks.map((tech) => (
+            <div
+              key={tech.name}
+              className="flex flex-col items-center justify-center gap-1 hover:scale-105 cursor-pointer transition duration-200 border-2 border-black p-4 rounded-3xl min-w-32 md:min-w-36"
+              title={tech.name}
+            >
+              <div className="md:text-5xl text-4xl">{tech.icon}</div>
+              <h1 className="font-bold">{tech.name}</h1>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
