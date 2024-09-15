@@ -39,7 +39,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="flex flex-col items-center justify-center md:h-96 h-72 sticky top-0 z-10 bg-[#F0EAD6]">
+    <footer className="flex flex-col items-center justify-center md:h-72 h-56 sticky top-0 z-10 bg-[#F0EAD6]">
       <div className="flex flex-wrap items-center justify-center md:gap-4 gap-3 py-12">
         {/* {socialLinks.map((link, index) => (
           <Link
