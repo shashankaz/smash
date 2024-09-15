@@ -5,13 +5,14 @@ import App from "./App";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import Loading from "./components/Loading";
 const Projects = lazy(() => import("./components/Projects"));
 const NotFound = lazy(() => import("./components/NotFound"));
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<Loading />}>
       <Router>
         <Routes>
           <Route path="/" element={<App />} />
