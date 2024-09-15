@@ -28,7 +28,7 @@ const FeaturedProjects = () => {
         </div>
         <div className="flex w-full items-start">
           <Link to="/projects">
-            <button className="px-6 py-4 w-28 text-center rounded-full text-black bg-[#FAF9F6]">
+            <button className="px-6 py-4 w-28 text-center rounded-full text-black bg-[#FAF9F6] shadow-xl">
               View All
             </button>
           </Link>

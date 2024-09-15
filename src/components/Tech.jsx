@@ -45,10 +45,10 @@ const Tech = () => {
           {techStacks.map((tech) => (
             <div
               key={tech.name}
-              className="flex flex-col items-center justify-center gap-1 hover:scale-105 cursor-pointer transition duration-200 border-2 border-black p-4 rounded-3xl min-w-32 md:min-w-36"
+              className="flex flex-col items-center justify-center gap-1 hover:scale-105 cursor-pointer transition duration-200 border-2 border-black p-4 rounded-3xl w-32 md:w-36 bg-white shadow-xl"
               title={tech.name}
             >
-              <div className="md:text-5xl text-4xl">{tech.icon}</div>
+              <div className="md:text-4xl text-3xl">{tech.icon}</div>
               <h1 className="font-bold">{tech.name}</h1>
             </div>
           ))}
