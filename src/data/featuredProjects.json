@@ -1,42 +1,30 @@
 [
   {
-    "id": 5,
-    "project_name": "YouTube Playlist Length",
-    "tech_stack": "ReactJs, JavaScript, CSS, Axios, ExpressJs, Cors, YouTube API",
+    "id": 1,
+    "project_name": "The Cleric",
     "year": 2024,
-    "live_link": "https://github.com/shashankaz/youtube-playlist-length",
-    "github_link": "https://github.com/shashankaz/youtube-playlist-length"
-  },
-  {
-    "id": 4,
-    "project_name": "Feedback Feature App",
-    "tech_stack": "ReactJs, JavaScript, CSS, Redux Toolkit",
-    "year": 2024,
-    "live_link": "https://feedback-feature-app.vercel.app/",
-    "github_link": "https://github.com/shashankaz/feedback-feature-app"
-  },
-  {
-    "id": 3,
-    "project_name": "EpicIndia",
-    "tech_stack": "NextJs, TypeScript, TailwindCSS, React Icons, SwiperJs, React Toastify, React Awesome Reveal, GSAP, EmailJs",
-    "year": 2024,
-    "live_link": "https://epic-india.vercel.app/",
-    "github_link": "https://github.com/shashankaz/EpicIndia"
+    "live_link": "https://www.thecleric.shop/",
+    "github_link": "https://github.com/shashankaz/the-cleric-shop"
   },
   {
     "id": 2,
-    "project_name": "EduNex",
-    "tech_stack": "ReactJs, JavaScript, CSS, React Icons, React Router Dom, EmailJs",
+    "project_name": "Pensieve - Blog App",
     "year": 2024,
-    "live_link": "https://edu-nex.vercel.app/",
-    "github_link": "https://github.com/shashankaz/EduNex"
+    "live_link": "https://pensieve-pro.vercel.app/",
+    "github_link": "https://github.com/shashankaz/Pensieve"
   },
   {
-    "id": 1,
-    "project_name": "Dev Academy",
-    "tech_stack": "NextJs, TypeScript, TailwindCSS, Aceternity UI, Framer Motion",
+    "id": 3,
+    "project_name": "Brain Chick - Quiz App",
     "year": 2024,
-    "live_link": "https://dev-academy-five.vercel.app/",
-    "github_link": "https://github.com/shashankaz/dev-academy"
+    "live_link": "https://brain-chick.vercel.app/",
+    "github_link": "https://github.com/shashankaz/BrainChick"
+  },
+  {
+    "id": 4,
+    "project_name": "URL Shortener API",
+    "year": 2024,
+    "live_link": "https://url-shortener-api-eight.vercel.app/",
+    "github_link": "https://github.com/shashankaz/url_shortener_api"
   }
 ]
